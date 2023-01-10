@@ -1,4 +1,4 @@
-# Syllabus – Intro to Programming (Java) - CIS 1500 – Winter 2023
+# Intro to Programming (Java) - CIS 1500 – Winter 2023
 ## Instructor Information
 Name: Eric Charnesky  
 OCC Email: etcharn1@oaklandcc.edu  
@@ -104,10 +104,10 @@ If you are experiencing technical difficulties in this course and wish to speak 
 ### D2L Accessibility Information
 D2L Accessibility Standards are available on the D2L website. 
 ### Required Minimum Technical Skills
-•	Web navigation 
-•	Access and use the tools in D2L
-•	Basic word processing and presentation creation
-•	File management and attachment
+•	Web navigation  
+•	Access and use the tools in D2L  
+•	Basic word processing and presentation creation  
+•	File management and attachment  
 ### Technology Appropriate Use Regulations (TAUR)
 Information technology resources (computers; voice, video and data networks; electronic data and information) are provided by Oakland Community College to its faculty, staff, administration and students in support of the College mission. Users of the information technology resources will abide by applicable federal and state laws and the College's regulations governing the use of these resources and will use them in support of activities directly related to duties and assignments. Please read Oakland Community College’s Technology Appropriate Use Regulations (TAUR) for more information.
 ### Netiquette
