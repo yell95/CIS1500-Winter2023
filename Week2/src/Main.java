@@ -1,7 +1,5 @@
-
 public class Main {
     public static void main(String[] args) {
-
         int length;
         int width;
         int height;
@@ -12,7 +10,7 @@ public class Main {
         System.out.println("I could write a novel");
         System.out.println("Java cares about order of operations! YAY");
         System.out.println((2+2)*3);
-       // the default length is 20
+        // the default length is 20
         int defaultLengthOfMyCarpet = 20;
         int defaultWidthOfMyCarpet = 10;
         System.out.println("The area of your carpet is "
