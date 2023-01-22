@@ -24,5 +24,7 @@ public class Main {
         System.out.println("Semesters remaining " + remaining);
         int estimatedCost = creditCost * remainingCredits;
         System.out.println("Estimated cost is " + estimatedCost);
+
+
     }
 }
