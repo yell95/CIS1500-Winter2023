@@ -124,7 +124,7 @@ Weeks will begin Wednesday at 12am and end the following Tuesday at 11:59pm
 Week|Date|Topics|Readings|Assignments|Recording
 ------------|----------|-----------|---------|------------|--------------
 1|1/10|Course Introduction – GitHub & IntelliJ, The Mental Landscape, Syllabus|Chapter 1|	|https://youtu.be/ZzNPTeArb1A
-2|1/17|Names and Things|Chapter 2	
+2|1/17|Names and Things|Chapter 2	| | https://youtu.be/FonG1tNdErA
 3|1/24|Control – if / else / switch|Chapter 3|Project 0
 4|1/31|Control – while, do, and for loops|Chapter 3	
 5|2/7|Project 0 Review & Subroutines|Chapter 4|Project 1
