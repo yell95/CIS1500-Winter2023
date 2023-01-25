@@ -127,6 +127,21 @@ public class Main {
             System.out.println("Break time");
         }
 
+        // switches are ugly, Eric is scared of them
+        switch (score) {
+            case 100:
+            case 99:
+            case 98:
+            case 97:
+            case 96:
+            case 95:
+            case 94:
+                System.out.println("A");
+                break;
+            //.......
+        }
+
+
     }
 }
 
