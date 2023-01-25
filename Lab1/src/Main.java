@@ -18,11 +18,19 @@ public class Main {
 
         int creditsRemaining = numberOfCreditsNeeded - numberOfCreditsCompleted;
 
-        double numberOfSemesterLeft = Math.ceil(creditsRemaining / creditsPerSemester);
+        // type casting - 2.5.6 https://ericcharnesky.github.io/javanotes9/c2/s5.html
+        int numberOfSemesterLeft = (int)Math.ceil(creditsRemaining / creditsPerSemester);
 
         double remainingCost = creditsRemaining * costPerCreditHour;
 
         System.out.println("You have " + numberOfSemesterLeft + " semesters left!");
         System.out.println("Your estimated cost is: $" + remainingCost);
+
+        // these two are the same
+        remainingCost = remainingCost + 100 * numberOfSemesterLeft;
+        remainingCost += 100 * numberOfSemesterLeft;
+
+        // this is the wrong way
+        // remainingCost =+ 100 * numberOfSemesterLeft;
     }
 }
