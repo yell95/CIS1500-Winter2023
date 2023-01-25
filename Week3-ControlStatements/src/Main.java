@@ -25,24 +25,27 @@ public class Main {
         System.out.println("Enter your credit score");
         int creditScore = Integer.parseInt(keyboard.nextLine());
 
+
+        // Chapter 3 Section 5 - https://ericcharnesky.github.io/javanotes9/c3/s5.html
+
         // down payment of 20% or more == yes
         // credit score of more than 800 == yes
         // down payment of 10% or more AND credit score of 700 or more == yes
-        if ( ( downPayment / housePrice >= .2
-            || creditScore > 800 )
-            || ( downPayment / housePrice >= .1 && creditScore >= 700 )
-            || (downPayment / housePrice >= .5 ) ) {
+        if ((downPayment / housePrice >= .2
+                || creditScore > 800)
+                || (downPayment / housePrice >= .1 && creditScore >= 700)
+                || (downPayment / housePrice >= .5)) {
             System.out.println("You can get a mortgage");
         } else {
             System.out.println("You don't qualify");
         }
 
-        if ( downPayment / housePrice >= .2  ){
+        if (downPayment / housePrice >= .2) {
             System.out.println("You can get a mortgage");
-        } else if( creditScore > 800 ) {
+        } else if (creditScore > 800) {
             System.out.println("You can get a mortgage");
-        } else if ( downPayment / housePrice >= .1
-                    && creditScore >= 700 ) {
+        } else if (downPayment / housePrice >= .1
+                && creditScore >= 700) {
             System.out.println("You can get a mortgage!");
         } else {
             System.out.println("You don't qualify");
@@ -51,62 +54,77 @@ public class Main {
         System.out.println("Enter your score 1-100");
         int score = Integer.parseInt(keyboard.nextLine());
 
-        if ( score >= 94 ){
+        if (score >= 94) {
             System.out.println("A");
-        } else if ( score >= 90 ){
+        } else if (score >= 90) {
             System.out.println("A-");
-        } else if ( score >= 86 ){
+        } else if (score >= 86) {
             System.out.println("B+");
-        } else if ( score >= 83 ){
+        } else if (score >= 83) {
             System.out.println("B");
-        } else if ( score >= 80 ){
+        } else if (score >= 80) {
             System.out.println("B-");
-        } else if ( score >= 76 ){
+        } else if (score >= 76) {
             System.out.println("C+");
-        } else if ( score >= 73 ){
+        } else if (score >= 73) {
             System.out.println("C");
-        } else if ( score >= 70 ){
+        } else if (score >= 70) {
             System.out.println("C-");
-        }else if ( score >= 66 ){
+        } else if (score >= 66) {
             System.out.println("D+");
-        } else if ( score >= 63 ){
+        } else if (score >= 63) {
             System.out.println("D");
         } else {
             System.out.println("F");
         }
 
-        if ( score >= 94 ){
+        if (score >= 94) {
             System.out.println("A");
         }
-        if ( score < 94 && score >= 90 ){
+        if (score < 94 && score >= 90) {
             System.out.println("A-");
         }
-        if ( score < 90 && score >= 86 ){
+        if (score < 90 && score >= 86) {
             System.out.println("B+");
         }
-        if ( score < 86 && score >= 83 ){
+        if (score < 86 && score >= 83) {
             System.out.println("B");
         }
-        if ( score < 83 && score >= 80 ){
+        if (score < 83 && score >= 80) {
             System.out.println("B-");
-        } 
-        if ( score < 80 && score >= 76 ){
+        }
+        if (score < 80 && score >= 76) {
             System.out.println("C+");
         }
-        if ( score < 76 && score >= 73 ){
+        if (score < 76 && score >= 73) {
             System.out.println("C");
         }
-        if ( score < 73 && score >= 70 ){
+        if (score < 73 && score >= 70) {
             System.out.println("C-");
         }
-        if ( score < 70 && score >= 66 ){
+        if (score < 70 && score >= 66) {
             System.out.println("D+");
         }
-        if ( score < 66 && score >= 63 ){
+        if (score < 66 && score >= 63) {
             System.out.println("D");
         }
-        if (score < 63 ){
+        if (score < 63) {
             System.out.println("F");
+        }
+        boolean areYouTired = true;
+        System.out.println("If you are tired enter 'y'");
+        String tiredInput = keyboard.nextLine();
+
+        // DO NOT DO THIS - IT WON't WORK - you can't use == with strings
+        if (tiredInput == "y") {
+            // doesn't work
+        }
+        if (tiredInput.equalsIgnoreCase("y")) {
+            areYouTired = true;
+        }
+
+        if (areYouTired) {
+            System.out.println("Break time");
         }
 
     }
